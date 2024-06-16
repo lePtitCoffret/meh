@@ -1,0 +1,34 @@
+@import url("font.css");
+@import url("palette.css");
+
+*{
+	background-color: var(--powder-blue);
+}
+main{
+	width: 100%;
+}
+
+#title{
+	text-align: left;
+	font-family : "title";
+	color: var(--ultra-violet);
+	font-size: 90%;
+}
+
+.product_name{
+	font-family: "product";
+	color: var(--redwood);
+
+}
+input{
+	background: url("icons/searchIcon.png") no-repeat left;
+	padding-left:30px;
+	background-size: 20px;
+}
+img#cartIcon,#searchIcon{
+	width: 20px;
+	height: ;
+}
+table{
+	width: 100%;
+}
